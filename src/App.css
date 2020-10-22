@@ -1,0 +1,108 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: aqua;
+  padding-left: 40px;
+}
+
+main {
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonContainer{
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  contain: strict;
+}
+
+.blueButtonContainer{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blueButtons{
+  background-color: aqua;
+  color: white;
+  border: 0;
+  border-radius: 30%;
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold
+}
+
+.whiteButtons{
+  background-color: black;
+  color: white;
+  border: 0;
+  height: 30px;
+  width: 120px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+#previous {
+  left: 0;
+  position: absolute;
+}
+
+#next {
+  right: 0;
+  position: absolute;
+}
+
+.cards {
+  height: 50vh;
+  width: 80vw;
+  background-color: white;
+  margin-top: 10vh;
+}
+
+.cardNumber{
+  top: 17%;
+  right: 11%;
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#margin {
+  margin-left: 5%;
+}
+
+.name {
+  font-size: 32px;
+  text-decoration: underline aqua;
+}
+
+.info-container{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  line-height: 70%;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.favoriteMovies{
+  font-size: 22px;
+}
